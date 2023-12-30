@@ -3,17 +3,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-
     android:layout_height="match_parent"
-    android:background="@drawable/d1"
-
-    tools:context=".Welcom">
+    tools:context=".Welcom"
+    android:background="@drawable/d1">
 
     <Button
         android:id="@+id/welcomeButton"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="16dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
         android:text="Welcome" />
+
 </RelativeLayout>
